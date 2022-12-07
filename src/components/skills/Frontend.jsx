@@ -19,10 +19,10 @@ const Frontend = () => {
 
                 <div className="skills__data">
                     
-            <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-webpack-plain colored"></i>
           
                  <div>
-                    <h3 className="skills__name">CSS</h3>
+                    <h3 className="skills__name">Webpack</h3>
                 </div>
                 </div>
 
@@ -46,11 +46,11 @@ const Frontend = () => {
 
                 <div className="skills__data">
                     
-            <i class="devicon-git-plain colored"></i>
+                <i class="devicon-storybook-plain colored"></i>
           
 
                  <div>
-                    <h3 className="skills__name">Git</h3>
+                    <h3 className="skills__name">Storybook</h3>
                 </div>
                 </div>
 

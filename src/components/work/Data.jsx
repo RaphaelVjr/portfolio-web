@@ -1,8 +1,8 @@
-import Work1 from "../../assets/project1.png";
-import Work2 from "../../assets/project2.png";
-import Work3 from "../../assets/project3.png";
-import Work4 from "../../assets/work1.jpg";
-import Work5 from "../../assets/work2.png";
+import Work1 from "../../assets/weatherapp.gif";
+import Work2 from "../../assets/weatherapp.gif";
+import Work3 from "../../assets/CarDealerProject.gif";
+import Work4 from "../../assets/SneakerEcommerce.gif";
+import Work5 from "../../assets/weatherapp.gif";
 
 export const projectsData = [
     {
@@ -20,13 +20,13 @@ export const projectsData = [
     {
         id: 3,
         image: Work3,
-        title: 'Web 3.0 Blockchain',
+        title: 'Car Dealer',
         category: 'web',
     },
     {
         id: 4,
         image: Work4,
-        title: 'Ecommerce Dashboard',
+        title: 'Sneaker Ecommerce',
         category: 'design',
     },
     {
