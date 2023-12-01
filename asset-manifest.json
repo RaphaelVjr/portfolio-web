@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-web/static/css/main.597c5422.css",
-    "main.js": "/portfolio-web/static/js/main.0f232ddf.js",
+    "main.css": "/portfolio-web/static/css/main.e26409d2.css",
+    "main.js": "/portfolio-web/static/js/main.2fe262bf.js",
     "static/media/CarDealerProject.gif": "/portfolio-web/static/media/CarDealerProject.ea00868fe5d6f8d8f72a.gif",
     "static/media/SneakerEcommerce.gif": "/portfolio-web/static/media/SneakerEcommerce.43d1eb9e598af22ceb04.gif",
     "static/media/weatherapp.gif": "/portfolio-web/static/media/weatherapp.b097ccd6ec3345fa2927.gif",
     "static/media/backgroundimg.gif": "/portfolio-web/static/media/backgroundimg.eb026fdfaef2e86ffded.gif",
-    "static/media/Curriculo.pdf": "/portfolio-web/static/media/Curriculo.7e6be4a665f788882629.pdf",
+    "static/media/CV Raphael Vitorio Dev 2023.pdf": "/portfolio-web/static/media/CV Raphael Vitorio Dev 2023.5df4643890cd20a312f7.pdf",
     "index.html": "/portfolio-web/index.html",
-    "main.597c5422.css.map": "/portfolio-web/static/css/main.597c5422.css.map",
-    "main.0f232ddf.js.map": "/portfolio-web/static/js/main.0f232ddf.js.map"
+    "main.e26409d2.css.map": "/portfolio-web/static/css/main.e26409d2.css.map",
+    "main.2fe262bf.js.map": "/portfolio-web/static/js/main.2fe262bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.597c5422.css",
-    "static/js/main.0f232ddf.js"
+    "static/css/main.e26409d2.css",
+    "static/js/main.2fe262bf.js"
   ]
 }
