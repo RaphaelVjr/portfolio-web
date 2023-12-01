@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <section className="work section" id='portfolio'>
         <h2 className="section__title">Portfolio</h2>
-        <span className="section__subtitle">Projetos em destaque</span>
+        <span className="section__subtitle">Main projects</span>
 
         <Works />
     </section>

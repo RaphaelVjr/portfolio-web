@@ -3,7 +3,7 @@ import React from 'react'
 const Backend = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Habilidades Backend</h3>
+        <h3 className="skills__title">Backend Stacks</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -20,49 +20,28 @@ const Backend = () => {
 
                 <div className="skills__data">
                     
-            <i class="devicon-mongodb-plain colored"></i>
+            <i class="devicon-spring-plain colored"></i>
           
 
                  <div>
-                    <h3 className="skills__name">MongoDB</h3>
+                    <h3 className="skills__name">Spring</h3>
 
                 </div>
                 </div>
 
                 <div className="skills__data">
                     
-            <i class="devicon-firebase-plain colored"></i>
+            <i class="devicon-java-plain colored"></i>
           
 
                  <div>
-                    <h3 className="skills__name">Firebase</h3>
+                    <h3 className="skills__name">Java</h3>
 
                 </div>
                 </div>
             </div>
 
             <div className="skills__group">
-                <div className="skills__data">
-                    
-            <i class="devicon-python-plain colored"></i>
-          
-
-                 <div>
-                    <h3 className="skills__name">Python</h3>
-                </div>
-                </div>
-
-                <div className="skills__data">
-                    
-            <i class="devicon-csharp-plain colored"></i>
-          
-
-                 <div>
-                    <h3 className="skills__name">C#</h3>
-
-                </div>
-                </div>
-
                 <div className="skills__data">
                    
             <i class="devicon-postgresql-plain colored"></i>

@@ -1,14 +1,14 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/Curriculo.pdf"
+import CV from "../../assets/CV Raphael Vitorio Dev 2023.pdf"
 import Info from './Info';
 
 const About = () => {
   return (
     <section className="about section" id="about">
-        <h2 className="section__title"> Sobre mim</h2>
-            <span className="section__subtitle"> Minha introdução</span>
+        <h2 className="section__title">About me</h2>
+            <span className="section__subtitle"> Introduction</span>
             <div className="about__container container grid">
                 <img src={AboutImg} alt="" className="about__img" />
 
@@ -16,7 +16,7 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        Desenvolvedor Front-end, minhas stacks principais <br></br>são HTML, CSS, React, Java Script, Node.js e MongoDB.
+                       Fullstack Developer, my stacks are <br></br> Angular, Java and React.
                     </p>
 
                     <a donwload="" href={CV} className="button button--flex">
