@@ -10,17 +10,17 @@ const Services = () => {
     }
   return (
     <section className="services section" id="services">
-        <h2 className="section__title">Serviços</h2>
-     <span className="section__subtitle">O que eu ofereço</span>
+        <h2 className="section__title">Services</h2>
+     <span className="section__subtitle">What i offer?</span>
 
      <div className="services__container container grid">
         <div className="services__content">
             <div>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" className="services__icon" />
-                    <h3 className="services__title">Designer <br /> Visual</h3>
+                    <h3 className="services__title">Visual <br /> designer</h3>
             </div>
 
-            <span className="services__button" onClick={() => toggleTab(1)}>Veja mais <i 
+            <span className="services__button" onClick={() => toggleTab(1)}>See more <i 
             className="uil uil-arrow-right 
             services__button-icon"></i></span>
 
@@ -28,42 +28,35 @@ const Services = () => {
                 <div className="services__modal-content">
                     <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                    <h3 className="services__modal-title">Design Web</h3>
-                    <p className="services__modal-description">Criação de conteúdo visual para redes sociais, criação de identidade na web.</p>
+                    <h3 className="services__modal-title">Web designb</h3>
+                    <p className="services__modal-description">Creation of social media content, web identity.</p>
 
                     <ul className="services__modal-services grid">
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Criação de logotipos e banners.
+                                Logo and banners creation.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Criação de postagens para social media.
+                                Creation of social media posts.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                               Desenvolvimento de Flyers, Logotipos, Artes visuais para produtos.
+                               Development of flyers and other visual elements.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Crio a sua imagem na internet
-                            </p>
-                        </li>
-
-                        <li className="services__modal-service">
-                            <i className="uil uil-check-circle services__modal-icon"></i>
-                            <p className="services__modal-info">
-                                Design e mockups para os seus produtos.
+                                Design and mockups for your products.
                             </p>
                         </li>
                     </ul>
@@ -77,7 +70,7 @@ const Services = () => {
                     <h3 className="services__title">Ui/Ux <br /> Designer</h3>
             </div>
 
-            <span className="services__button" onClick={() => toggleTab(2)}>Veja mais <i 
+            <span className="services__button" onClick={() => toggleTab(2)}>See more <i 
             className="uil uil-arrow-right 
             services__button-icon"></i></span>
 

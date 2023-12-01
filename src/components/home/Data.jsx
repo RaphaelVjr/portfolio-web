@@ -55,13 +55,13 @@ const Data = () => {
                   ></path>
             </svg>
         </h1>
-        <h3 className="home__subtitle">Desenvolvedor Front-end</h3>
+        <h3 className="home__subtitle">Fullstack Developer</h3>
         <p className="home__description">
-         Sou desenvolvedor Frontend, apaixonado em aprender coisas novas!
+         Im a fullstack developer passionate for new challenges and knowledge, i have been worked as frontend and back-for-front developer for 2 years, as freelanceer and intern in Ford Motor Company.
         </p>
 
         <a href="#contact" className="button button--flex">
-            Fale comigo
+            Contact me
             <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
