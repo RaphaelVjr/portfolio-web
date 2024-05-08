@@ -8,14 +8,16 @@ export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Im not a Robot Captcha',
+        title: 'Pokedex',
         category: 'web',
+        link: 'https://raphaelvjr.github.io/PokedexProject/'
     },
     {
         id: 2,
         image: Work2,
         title: 'Weather App',
-        category: 'apps',
+        category: 'web',
+        link: 'https://raphaelvjr.github.io/Weather-App/'
     },
     {
         id: 3,
@@ -27,7 +29,8 @@ export const projectsData = [
         id: 4,
         image: Work4,
         title: 'Sneaker Ecommerce',
-        category: 'design',
+        category: 'web',
+        link: 'https://raphaelvjr.github.io/SneakerEcommerce/'
     },
     {
         id: 5,
