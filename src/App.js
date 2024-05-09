@@ -18,7 +18,6 @@ import { ToastContainer } from 'react-toastify';
 const App = () => {
 
   return (
-    <>
       <LanguageProvider>
         <Header />
         <ToastContainer />
@@ -36,7 +35,6 @@ const App = () => {
         <Footer />
         <ScrollUp />
       </LanguageProvider>
-    </>
   );
 };
 
