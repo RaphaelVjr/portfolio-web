@@ -11,7 +11,6 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import 'react-toastify/dist/ReactToastify.css';
 import ScrollUp from './components/scrollup/ScrollUp';
-import { useTranslation } from 'react-i18next';
 import { LanguageProvider } from './context/LanguageContext';
 import { ToastContainer } from 'react-toastify';
 

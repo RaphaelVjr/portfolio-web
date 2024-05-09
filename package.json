@@ -1,5 +1,5 @@
 {
-  "homepage": "https://RaphaelVjr.github.io/portfolio-web",
+  "homepage": "https://portfolio-web-raphaelvjrs-projects.vercel.app/",
   "name": "portfolio-web",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "core-js": "^3.37.0",
     "emailjs-com": "^3.2.0",
     "flag-icons": "^7.2.1",
     "i18next": "^23.11.3",
@@ -20,8 +21,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,7 +47,6 @@
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/eslint-parser": "^7.19.1",
-    "babel-eslint": "^10.1.0",
-    "gh-pages": "^4.0.0"
+    "babel-eslint": "^10.1.0"
   }
 }
