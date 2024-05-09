@@ -9,25 +9,33 @@ import Qualification from './components/qualifications/Qualification';
 import Work from './components/work/Work';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import 'react-toastify/dist/ReactToastify.css';
 import ScrollUp from './components/scrollup/ScrollUp';
+import { useTranslation } from 'react-i18next';
+import { LanguageProvider } from './context/LanguageContext';
+import { ToastContainer } from 'react-toastify';
 
 const App = () => {
+
   return (
     <>
-    <Header />
+      <LanguageProvider>
+        <Header />
+        <ToastContainer />
 
-    <main className="main">
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Qualification />
-      <Work />
-      <Contact />
-    </main>
+        <main className="main">
+          <Home />
+          <About />
+          <Skills />
+          <Services />
+          <Qualification />
+          <Work />
+          <Contact />
+        </main>
 
-    <Footer />
-    <ScrollUp />
+        <Footer />
+        <ScrollUp />
+      </LanguageProvider>
     </>
   );
 };

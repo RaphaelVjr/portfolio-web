@@ -10,7 +10,7 @@ const Backend = () => {
                     <div className="skills__data">
 
 
-                        <i class="devicon-ruby-plain colored"></i>
+                        <i className="devicon-ruby-plain colored"></i>
 
                         <div>
                             <h3 className="skills__name">Ruby</h3>
@@ -20,7 +20,7 @@ const Backend = () => {
 
                     <div className="skills__data">
 
-                        <i class="devicon-spring-plain colored"></i>
+                        <i className="devicon-spring-plain colored"></i>
 
 
                         <div>
@@ -31,7 +31,7 @@ const Backend = () => {
 
                     <div className="skills__data">
 
-                        <i class="devicon-java-plain colored"></i>
+                        <i className="devicon-java-plain colored"></i>
 
 
                         <div>
@@ -44,7 +44,7 @@ const Backend = () => {
                 <div className="skills__group">
                     <div className="skills__data">
 
-                        <i class="devicon-nodejs-plain colored"></i>
+                        <i className="devicon-nodejs-plain colored"></i>
 
 
                         <div>

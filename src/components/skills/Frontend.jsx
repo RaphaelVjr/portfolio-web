@@ -9,7 +9,7 @@ const Frontend = () => {
                 <div className="skills__group">
                     <div className="skills__data">
 
-                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <i className="devicon-tailwindcss-plain colored"></i>
 
 
                         <div>
@@ -19,7 +19,7 @@ const Frontend = () => {
 
                     <div className="skills__data">
 
-                        <i class="devicon-angularjs-plain colored"></i>
+                        <i className="devicon-angularjs-plain colored"></i>
 
                         <div>
                             <h3 className="skills__name">Angular</h3>
@@ -27,7 +27,7 @@ const Frontend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i class="devicon-javascript-plain colored"></i>
+                        <i className="devicon-javascript-plain colored"></i>
 
                         <div>
                             <h3 className="skills__name">JavaScript</h3>
@@ -37,7 +37,7 @@ const Frontend = () => {
 
                 <div className="skills__group">
                     <div className="skills__data">
-                        <i class="devicon-bootstrap-plain colored"></i>
+                        <i className="devicon-bootstrap-plain colored"></i>
 
                         <div>
                             <h3 className="skills__name">Bootstrap</h3>
@@ -46,7 +46,7 @@ const Frontend = () => {
 
                     <div className="skills__data">
 
-                        <i class="devicon-storybook-plain colored"></i>
+                        <i className="devicon-storybook-plain colored"></i>
 
 
                         <div>
@@ -56,7 +56,7 @@ const Frontend = () => {
 
                     <div className="skills__data">
 
-                        <i class="devicon-react-original colored"></i>
+                        <i className="devicon-react-original colored"></i>
 
 
                         <div>

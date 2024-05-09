@@ -10,7 +10,7 @@ const OtherSkills = () => {
 
                     <div className="skills__data">
 
-                        <i class="devicon-apachekafka-plain colored"></i>
+                        <i className="devicon-apachekafka-plain colored"></i>
 
 
                         <div>
@@ -31,7 +31,7 @@ const OtherSkills = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i class="devicon-redhat-plain colored"></i>
+                        <i className="devicon-redhat-plain colored"></i>
 
                         <div>
                             <h3 className="skills__name">Red Hat Quay</h3>
@@ -41,7 +41,7 @@ const OtherSkills = () => {
 
                 <div className="skills__group">
                     <div className="skills__data">
-                        <i class="devicon-linux-plain colored"></i>
+                        <i className="devicon-linux-plain colored"></i>
 
                         <div>
                             <h3 className="skills__name">Linux</h3>
@@ -49,7 +49,7 @@ const OtherSkills = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i class="devicon-terraform-plain colored"></i>
+                        <i className="devicon-terraform-plain colored"></i>
 
                         <div>
                             <h3 className="skills__name">Terraform</h3>
@@ -57,7 +57,7 @@ const OtherSkills = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i class="devicon-redis-plain colored"></i>
+                        <i className="devicon-redis-plain colored"></i>
 
                         <div>
                             <h3 className="skills__name">Redis</h3>
