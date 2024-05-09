@@ -1,6 +1,14 @@
-import React from 'react'
+import React, {useContext, useState} from 'react'
+import { LanguageContext } from './../../context/LanguageContext';
+import { useTranslation } from 'react-i18next';
 
 const Scrolldown = () => {
+  const [loading, setLoading] = useState(false);
+  const { t } = useTranslation();
+
+
+  const { handleChangeLanguage } = useContext(LanguageContext);
+  
   return (
     <div className="home__scroll">
       <a href="#about" className="home__scroll-button button--flex">
@@ -39,7 +47,7 @@ const Scrolldown = () => {
             }}
           ></path>
         </svg>
-        <span className="home__scroll-name">Para baixo</span>
+        <span className="home__scroll-name">{t('Para baixo')}</span>
         <i className="uil uil-arrow-down home__scroll-arrow"></i>
       </a>
     </div>

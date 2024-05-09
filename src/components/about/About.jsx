@@ -25,11 +25,11 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Tenho atuado como desenvolvedor fullstack desde o inicio da minha carreira durante esses 2 anos, sempre buscando lidar com novos desafios e oportunidades. Procurei me especializar em Java, Angular e React como stacks principais e sigo estudando e me atualizando sobre essas tecnologias ao longo do meu dia a dia. Ao longo da minha carreira busco contribuir com meus colegas e investir na minha comunicação e liderança.
+            {t('Tenho atuado como desenvolvedor fullstack desde o inicio da minha carreira durante esses 2 anos, sempre buscando lidar com novos desafios e oportunidades. Procurei me especializar em Java, Angular e React como stacks principais e sigo estudando e me atualizando sobre essas tecnologias ao longo do meu dia a dia. Ao longo da minha carreira busco contribuir com meus colegas e investir na minha comunicação e liderança.')}
           </p>
 
           <a donwload="" href={CV} className="about__cv button button--flex">
-            Baixar CV
+          {t('Baixar CV')}
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"

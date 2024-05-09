@@ -1,6 +1,14 @@
-import React from 'react'
+import React, {useContext, useState} from 'react'
+import { LanguageContext } from './../../context/LanguageContext';
+import { useTranslation } from 'react-i18next';
 
 const Data = () => {
+  const [loading, setLoading] = useState(false);
+  const { t } = useTranslation();
+
+
+  const { handleChangeLanguage } = useContext(LanguageContext);
+  
   return (
     <div className="home__data">
       <h1 className="home__title">
@@ -55,13 +63,13 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Desenvolvedor Fullstack</h3>
+      <h3 className="home__subtitle">{t('Desenvolvedor Fullstack')}</h3>
       <p className="home__description">
-       Sou apaixonado por tecnologia e novos desafios e sempre movido a resolver problemas! Adoro animais, one piece e carros. Tenho trabalhado há 2 anos como Desenvolvedor Fullstack atuando como Freelancer e atualmente trabalho na Ford Motor Company Brasil.
+       {t('Sou apaixonado por tecnologia e novos desafios e sempre movido a resolver problemas! Adoro animais, one piece e carros. Tenho trabalhado há 2 anos como Desenvolvedor Fullstack atuando como Freelancer e atualmente trabalho na Ford Motor Company Brasil.')}
       </p>
 
       <a href="#contact" className="button button--flex">
-        Contato
+        {t('Contato')}
         <svg
           className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
