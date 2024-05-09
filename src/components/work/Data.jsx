@@ -24,6 +24,7 @@ export const projectsData = [
         image: Work3,
         title: 'Car Dealer',
         category: 'web',
+        link: 'https://github.com/RaphaelVjr/Autopremium-Imports'
     },
     {
         id: 4,
@@ -42,7 +43,7 @@ export const projectsData = [
 
 export const projectsNav = [
     {
-       name: "todos",
+       name: "All",
     },
     {
        name : "web",

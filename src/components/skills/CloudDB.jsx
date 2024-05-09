@@ -1,72 +1,68 @@
 import React from 'react'
 
-const Frontend = () => {
+const CloudDB = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Frontend Skills</h3>
+            <h3 className="skills__title">Cloud & Database Skills</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
 
-                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <i class="devicon-googlecloud-plain"></i>
 
 
                         <div>
-                            <h3 className="skills__name">TailWind</h3>
+                            <h3 className="skills__name">Google Cloud</h3>
+                        </div>
+                    </div>
+
+
+                    <div className="skills__data">
+
+                        <i class="devicon-kubernetes-plain colored"></i>
+
+                        <div>
+                            <h3 className="skills__name">Kubernetes</h3>
                         </div>
                     </div>
 
                     <div className="skills__data">
-
-                        <i class="devicon-angularjs-plain colored"></i>
-
-                        <div>
-                            <h3 className="skills__name">Angular</h3>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
 
                         <div>
-                            <h3 className="skills__name">JavaScript</h3>
+                            <h3 className="skills__name">AWS</h3>
                         </div>
                     </div>
                 </div>
 
                 <div className="skills__group">
                     <div className="skills__data">
-                        <i class="devicon-bootstrap-plain colored"></i>
+                        <i class="devicon-postgresql-plain colored"></i>
 
                         <div>
-                            <h3 className="skills__name">Bootstrap</h3>
+                            <h3 className="skills__name">PostgreSQL</h3>
                         </div>
                     </div>
-
                     <div className="skills__data">
-
-                        <i class="devicon-storybook-plain colored"></i>
-
+                        <i class="devicon-sqlite-plain colored"></i>
 
                         <div>
-                            <h3 className="skills__name">Storybook</h3>
+                            <h3 className="skills__name">SQLite</h3>
                         </div>
                     </div>
-
                     <div className="skills__data">
-
-                        <i class="devicon-react-original colored"></i>
-
+                        <i class="devicon-firebase-plain colored"></i>
 
                         <div>
-                            <h3 className="skills__name">React</h3>
+                            <h3 className="skills__name">Firebase</h3>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     )
 }
 
-export default Frontend
+export default CloudDB

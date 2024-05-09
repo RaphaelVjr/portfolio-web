@@ -9,15 +9,15 @@ const Footer = () => {
 
         <ul className="footer__list">
           <li>
-            <a href="#about" className="footer__link">About</a>
+            <a href="#about" className="footer__link">Sobre mim</a>
           </li>
 
           <li>
-            <a href="#portfolio" className="footer__link">Projects</a>
+            <a href="#portfolio" className="footer__link">Projetos</a>
           </li>
 
           <li>
-            <a href="#testimonials" className="footer__link">Testemunhas</a>
+            <a href="#home" className="footer__link">Inicio</a>
           </li>
         </ul>
 
@@ -35,7 +35,7 @@ const Footer = () => {
         </a>
         </div>
 
-        <span className="footer__copy">&#169; Raphael Júnior. All rights reserved</span>
+        <span className="footer__copy">&#169; Raphael Júnior. Todos direitos reservados</span>
     </footer>
   )
 }

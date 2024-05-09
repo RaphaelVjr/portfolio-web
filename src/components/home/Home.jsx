@@ -7,19 +7,19 @@ import Scrolldown from './Scrolldown';
 const Home = () => {
   return (
     <section className="home section" id="home">
-       <div className='home__background'>
+      <div className='home__background'>
         <div className="home__container container grid">
-            <div className="home__content grid">
-                <Social />
+          <div className="home__content grid">
+            <Social />
 
-                <div className="home__img"></div>
+            <div className="home__img"></div>
 
-                  <Data />
-            </div>
+            <Data />
+          </div>
 
-            <Scrolldown />
-            </div>
+          <Scrolldown />
         </div>
+      </div>
     </section>
   )
 }

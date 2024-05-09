@@ -10,8 +10,8 @@ const Qualification = () => {
 
   return (
     <section className="qualification section">
-        <h2 className="section__title">Qualifications</h2>
-      <span className="section__subtitle">My journey</span>
+        <h2 className="section__title">Qualificações</h2>
+      <span className="section__subtitle">Minha Jornada</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -22,7 +22,7 @@ const Qualification = () => {
                 onClick={() => toggleTab(1)}
                 >
                 <i className="uil uil-graduation-cap qualification__icon"></i>
-                Education
+                Educação
             </div>
 
             <div 
@@ -33,7 +33,7 @@ const Qualification = () => {
                 onClick={() => toggleTab(2)}
                 >
                 <i className="uil uil-briefcase-alt qualification__icon"></i>
-                Experience
+                Experiência
             </div>
         </div>
 
@@ -44,11 +44,11 @@ const Qualification = () => {
                 : "qualification__content"}>
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">Software Engineering</h3>
-                        <span className="qualification__subtitle"> UNICESUMAR - Bachelors degree
+                        <h3 className="qualification__title">Engenharia de Software</h3>
+                        <span className="qualification__subtitle"> UNICESUMAR - Bacharelado
                         </span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 02/2022 - Now
+                            <i className="uil uil-calendar-alt"></i> 01/2022 - Atualmente
                         </div>
                     </div>
 
@@ -57,6 +57,7 @@ const Qualification = () => {
                         <span className="qualification__line"></span>
                     </div>
                 </div>
+                
 
                 <div className="qualification__data">
                     <div></div>
@@ -67,13 +68,29 @@ const Qualification = () => {
                     </div>
 
                     <div>
-                        <h3 className="qualification__title">Fullstack Dev course</h3>
+                        <h3 className="qualification__title">Curso Dev Fullstack</h3>
                         <span className="qualification__subtitle"> 
                         ProgramadorBR
                         </span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i>50 Hours - Complete / 2022
+                            <i className="uil uil-calendar-alt"></i>50 Horas - Completo / 2022
                         </div>
+                    </div>
+                </div>
+
+                <div className="qualification__data">
+                    <div>
+                        <h3 className="qualification__title">Segurança na Nuvem</h3>
+                        <span className="qualification__subtitle"> IBSEC - Certificado
+                        </span>
+                        <div className="qualification__calender">
+                            <i className="uil uil-calendar-alt"></i> 04/2024 - 04/2027
+                        </div>
+                    </div>
+
+                    <div>
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
                     </div>
                 </div>
             </div>
@@ -84,12 +101,12 @@ const Qualification = () => {
                 : "qualification__content"}>
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">Web design</h3>
+                        <h3 className="qualification__title">Web Design</h3>
                         <span className="qualification__subtitle"> Adobe Illustrator - Photoshop
                         </span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 2021 - 
-                            Now
+                            <i className="uil uil-calendar-alt"></i> 140 Horas - Completo / 2021 
+
                         </div>
                     </div>
 
@@ -108,24 +125,24 @@ const Qualification = () => {
                     </div>
 
                     <div>
-                        <h3 className="qualification__title">Freelance</h3>
+                        <h3 className="qualification__title">Freelancer</h3>
                         <span className="qualification__subtitle"> 
-                        Angular and laravel Web developer
+                          Desenvolvedor Fullstack
                         </span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 11/2022 - 
-                            01/2023                
+                            <i className="uil uil-calendar-alt"></i> 06/2021 - 
+                            Atualmente            
                         </div>
                     </div>
                 </div>
 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">Web development</h3>
-                        <span className="qualification__subtitle"> Angular and Java
+                        <h3 className="qualification__title">Desenvolvedor Fullstack</h3>
+                        <span className="qualification__subtitle"> Angular e Java
                         </span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> Ford Motor Company <br></br>01/2023 - Now
+                            <i className="uil uil-calendar-alt"></i> Ford Motor Company <br></br>01/2023 - Atualmente
                         </div>
                     </div>
 

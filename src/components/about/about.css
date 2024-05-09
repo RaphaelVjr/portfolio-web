@@ -1,19 +1,21 @@
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    column-gap: 4rem;
-}
-
-.about__img {
-    width: 450px;
-    border-radius: 1.5rem;
-    justify-self: center;
+    column-gap: 2rem;
 }
 
 .about__info {
-    grid-template-columns: repeat(3, 140px);
-    gap: 1.5rem;
+    grid-template-columns: repeat(3, 240px);
+    gap: 4.5rem;
+    padding: 0 2rem 0 2.7rem;
     margin-bottom: var(--mb-2);
+}
+
+.about__cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 12rem 2rem 12rem;
 }
 
 .about__box {
@@ -21,7 +23,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
-    padding: 1rem 1.25rem;
+    padding: 1rem 1rem;
 }
 
 .about__icon {
@@ -31,8 +33,9 @@
 }
 
 .about__title {
-    font-size: var(--medium-font-size);
-    font-weight: var(--font-medium);
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
 }
 
 .about_subtitle {
@@ -41,7 +44,10 @@
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
+    padding: 0 2.5rem 0 2.7rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     margin-bottom: var(--mb-2-5);
 }
 

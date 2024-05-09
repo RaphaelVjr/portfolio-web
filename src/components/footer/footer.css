@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--container-color);
+    background-color: #352e32;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -50,6 +50,7 @@
 .footer__copy {
     display: block;
     margin-top: 4.5rem;
+    padding-bottom: 2rem;
     color: var(--title-color);
     text-align: center;
     font-size: var(--normal-font-size);
