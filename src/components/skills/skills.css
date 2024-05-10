@@ -1,11 +1,11 @@
 .skills__container {
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(2, 380px);
     column-gap: 3rem;
     justify-content: center;
 }
 
 .cloud__skills {
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(2, 380px);
     justify-content: center;
     column-gap: 3rem;
     padding: 2rem;
@@ -62,10 +62,19 @@
     grid-template-columns: max-content;
     row-gap: 2rem;
    }
+
+   .cloud__skills {
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+   }
   }
   
   @media screen and (max-width: 576px) {
-    .skills__contaienr {
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+
+    .cloud__skills {
         grid-template-columns: 1fr;
     }
 

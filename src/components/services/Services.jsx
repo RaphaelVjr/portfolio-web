@@ -110,6 +110,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" className="services__icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" className="services__icon" />
                         <h3 className="services__title">Desenvolvimento <br /> Web</h3>
                     </div>
 

@@ -13,7 +13,7 @@ const CloudDB = () => {
 
 
                         <div>
-                            <h3 className="skills__name">Google Cloud</h3>
+                            <h3 className="skills__name">GCP</h3>
                         </div>
                     </div>
 

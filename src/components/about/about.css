@@ -14,8 +14,9 @@
 .about__cv {
     display: flex;
     justify-content: center;
+    margin: 1rem 0rem 0rem 2rem;
     align-items: center;
-    margin: 2rem 12rem 2rem 12rem;
+    width: 100%;
 }
 
 .about__box {
@@ -26,11 +27,16 @@
     padding: 1rem 1rem;
 }
 
+.cv__buttons {
+  display: flex;
+}
+
 .about__icon {
     font-size: 1.5rem;
     color: var(--title-color);
     margin-bottom: var(--mb-0-5);
 }
+
 
 .about__title {
     font-size: 1.5rem;
@@ -78,20 +84,26 @@
         margin-bottom: 2rem;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .about__info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
   
   @media screen and (max-width: 576px) {
     .about__info {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .about__description {
-        padding: 0;
+        padding: 0 2rem;
     }
   }
   
   @media screen and (max-width: 350px) {
     .about__info {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
   }
 

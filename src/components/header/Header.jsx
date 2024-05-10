@@ -64,7 +64,7 @@ const Header = () => {
                             </a>
                         </li>
 
-                        <li className="nav__item">
+                        <li className="nav__flag">
                             <button onClick={() => handleChangeLanguage('en')}>
                                 <span className='fi fi-um'></span>
                             </button>
