@@ -101,11 +101,11 @@ const Qualification = () => {
                 : "qualification__content"}>
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">Web Design</h3>
-                        <span className="qualification__subtitle"> Adobe Illustrator - Photoshop
+                        <h3 className="qualification__title">Freelancer</h3>
+                        <span className="qualification__subtitle">  Desenvolvedor Fullstack
                         </span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 140 Horas - Completo / 2021 
+                            <i className="uil uil-calendar-alt"></i>  Atualmente / 2021 
 
                         </div>
                     </div>
@@ -125,24 +125,24 @@ const Qualification = () => {
                     </div>
 
                     <div>
-                        <h3 className="qualification__title">Freelancer</h3>
+                        <h3 className="qualification__title">FLANP LTDA</h3>
                         <span className="qualification__subtitle"> 
                           Desenvolvedor Fullstack
                         </span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 06/2021 - 
-                            Atualmente            
+                            <i className="uil uil-calendar-alt"></i> 11/2022 - 01/2023
+                                        
                         </div>
                     </div>
                 </div>
 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">Desenvolvedor Fullstack</h3>
-                        <span className="qualification__subtitle"> Angular e Java
+                        <h3 className="qualification__title">Ford Motor Company</h3>
+                        <span className="qualification__subtitle"> Desenvolvedor Fullstack
                         </span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> Ford Motor Company <br></br>01/2023 - Atualmente
+                            <i className="uil uil-calendar-alt"></i> 01/2023 - Atualmente
                         </div>
                     </div>
 
