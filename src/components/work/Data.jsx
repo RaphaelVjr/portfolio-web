@@ -1,4 +1,4 @@
-import Work1 from "../../assets/weatherapp.gif";
+import Work1 from "../../assets/re-energy.gif";
 import Work2 from "../../assets/weatherapp.gif";
 import Work3 from "../../assets/CarDealerProject.gif";
 import Work4 from "../../assets/SneakerEcommerce.gif";
